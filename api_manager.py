@@ -7,6 +7,15 @@ import psycopg2
 from datetime import datetime
 
 
+
+
+DB_NAME="financial_analyzer_db"
+DB_USER="postgres"
+DB_PASSWORD="azizaziz2"
+DB_HOST="localhost"
+DB_PORT="5432"
+
+
 # --- GeckoTerminal API Configuration ---
 GECKO_API_BASE_URL = "https://api.geckoterminal.com/api/v2"
 API_HEADERS = {'Accept': 'application/json'}
